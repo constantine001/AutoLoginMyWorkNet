@@ -1,7 +1,7 @@
-# AutoLoginMyWorkNet
-每天定时在工作平台（http）签到、签退
+# MyWorkNetDataPySpider
+
+因公司要求把每天的运维数据（公开数据）从业主的网站（我们公司做的）上提取出来，然后上传到公司的工作平台上，供给公司大数据平台使用，故原来只能一条条寻找需求数据，然后转到工作平台填写提交，每小时大概能填30~40条，然后自己琢磨了3天左右，利用刚学的Python从网上搬砖拼凑出了该项目，只是为了节约自己的时间（一句话就是懒~），现把代码记录在GitHub，方便以后自己查看及反思。
 ## 一、前期准备
-    1. Python3.5+
-    2. selenium #（在cmd下运行：pip install selenium）
-    3. IEDriverServer.exe #（IE64位驱动 http://selenium-release.storage.googleapis.com/3.8/IEDriverServer_x64_3.8.0.zip）
-    4. IEDriverServer.exe #（IE32位驱动 http://selenium-release.storage.googleapis.com/3.8/IEDriverServer_Win32_3.8.0.zip）
+    1. Python3.6
+    2. VSCode
+
